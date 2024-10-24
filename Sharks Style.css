@@ -1,0 +1,137 @@
+h2 {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    font-size: 15pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li{
+    font-size: 15pt;
+}
+
+.intro img{
+    width:550px;
+    float:left;
+    margin-right:15px;
+    border: 5px solid white
+}
+.anatomy img{
+    width:340px;
+    float:right;
+    margin-left:15px;
+    border: 5px solid white 
+}
+
+.threats img{
+    width:580px;
+    float:right; 
+    margin-left:15px;
+    border: 5px solid white
+}
+.attack img{
+    width:450px;
+    float:right;
+    margin-left:15px;
+    border: 5px solid white
+}
+
+body{
+    background-image:linear-gradient(turquoise,royalblue);
+    background-attachment: fixed;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:orangered;
+    box-shadow: 0 0 25px 0 black;
+    border:solid 5px orange;
+  }
+  
+header li {
+    float: left;
+  }
+  
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+header li a:hover {
+    background-color: orange;
+  }
+table, th, td {
+    border:3.5px solid deepskyblue ;
+  }
+.table img{
+    width:400px;
+    height:225px;
+    float:center;
+    margin-left:15px;
+}
+table{
+  width:1500px ;
+  background-image:linear-gradient(orange orangered);
+  height:900px;
+  margin-left:60px;
+  float:center;
+  border-collapse: collapse
+}
+td, th{
+  text-align: center;
+  background-color: aquamarine;
+}
+.Game img{
+width:750px;
+height:400px;
+margin-left:50px
+}
+.Game a{
+font-size:15pt;
+color:orange
+}
+
+
+.sidenav {
+  height: 225px;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: orangered;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top:75px;
+  border:solid 5px orange;
+  box-shadow: 0 0 20px 0 black
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: orange;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}}
